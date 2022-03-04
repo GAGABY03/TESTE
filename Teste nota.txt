@@ -1,0 +1,16 @@
+algotimo "media_aluno"
+var
+nota1, nota2, media: real
+inicio
+escreva ("digite a primeira nota do aluno: ")
+leia ("nota1)
+escreva ("digite a segunda nota do aluno: ")
+leia ("nota2)
+media <- (nota1 + nota2) / 2
+escreva ("A media do aluno é: ", media)
+se (media >= 6) entao
+escreva ("O aluno foi aprovado!")
+senao
+escreva ("O aluno foi reprovado!")
+Fimse
+fimalgoritimo
